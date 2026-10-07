@@ -1,0 +1,15 @@
+services:
+  tutor:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      TUTOR_DATA_DIR: /data
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - tutor-data:/data
+    restart: unless-stopped
+volumes:
+  tutor-data:

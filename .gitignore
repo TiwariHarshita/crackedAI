@@ -1,0 +1,11 @@
+
+*.pyc
+data/
+.streamlit/secrets.toml
+.pytest_cache/
+.venv/
+.venv312/
+.venv-fixed/
+__pycache__/
+.env
+SECURITY.md
