@@ -34,11 +34,6 @@ Create an account or sign in to access your saved study sessions and provider se
 
 ![CrackedAI login page](assets/screenshots/login.png)
 
-### Dashboard
-
-The main study workspace, with navigation and controls for your provider, model, subject, and learning level.
-
-![CrackedAI dashboard](assets/screenshots/dashboard.png)
 
 ### Learn
 
@@ -56,7 +51,8 @@ Choose a quiz topic and the number of questions to generate.
 
 Answer multiple-choice questions and review your score and explanations after submission.
 
-![CrackedAI quiz and feedback](assets/screenshots/quiz.png)
+![CrackedAI quiz ](assets/screenshots/quiz.png)
+![CrackedAI quiz feedback](assets/screenshots/quizR.png)
 
 ### Progress
 
@@ -69,6 +65,7 @@ Review your quiz history and overall accuracy.
 1. Create an account and sign in.
 2. Open **Settings** and save your API key, or start Ollama on the app host.
 3. Select an **AI provider**, click **Refresh available models**, and choose a **Model / version**.
+![CrackedAI Progress view](assets/screenshots/model.png)
 4. Set your subject and learning level.
 5. Use **Learn** for explanations, **Practise** for quizzes, and **Progress** to review your results.
 
